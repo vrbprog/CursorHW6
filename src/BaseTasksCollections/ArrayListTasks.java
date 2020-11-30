@@ -104,8 +104,8 @@ public class ArrayListTasks {
                 twoJoinList + " is list " + joinList);
 
         //Task16
-        List<String> cloningList = new ArrayList<>(Arrays.asList("Yellow", "Grey", "Blue"));
-        ArrayList<String> clonedList = (ArrayList<String>) ((ArrayList<String>) cloningList).clone();
+        ArrayList<String> cloningList = new ArrayList<>(Arrays.asList("Yellow", "Grey", "Blue"));
+        ArrayList<String> clonedList = (ArrayList<String>) cloningList.clone();
         System.out.println("Task 16: " + "Cloned list of " + cloningList + " is list " + clonedList);
 
         //Task17
