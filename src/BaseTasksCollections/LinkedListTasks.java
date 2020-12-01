@@ -161,7 +161,7 @@ public class LinkedListTasks {
 
         //Task25
         List<String> emptyList = new LinkedList<>();
-        System.out.println("Task 25: Checking list " + emptyList + " is empty : " + emptyList.isEmpty());
+        System.out.println("Task 25: Checking list " + emptyList + " is empty ?: " + emptyList.isEmpty());
 
         //Task26
         List<String> noReplaceList = new LinkedList<>(Arrays.asList("Yellow", "Grey", "Blue"));
