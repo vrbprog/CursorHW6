@@ -61,7 +61,7 @@ public class HashSetTasks {
         //Task10
         Set<String> oneSet = new HashSet<>(Arrays.asList("Yellow", "Grey", "Cyan"));
         Set<String> twoSet = new HashSet<>(Arrays.asList("Blue", "Cyan", "Black"));
-        System.out.print("Task 10: " + "Compare set " + oneSet + " and set " + twoSet + " ");
+        System.out.print("Task 10: " + "Compare set " + oneSet + " and set " + twoSet + " is: ");
         for (String element : oneSet) {
             System.out.print(twoSet.contains(element) ? "Yes " : "No ");
         }
